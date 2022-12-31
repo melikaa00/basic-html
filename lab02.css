@@ -1,0 +1,113 @@
+/* sharing properties */
+
+h1 {color: purple;font-family: verdana;font-size: 30px;}
+h3{color: red;font-family: verdana;font-size: 30px;}
+h2 {color: blue;font-family: verdana;font-size: 30px;}
+h4{color: pink; font-family: courier; font-size:20px;}
+h5{color: green; font-family:serif; font-size:20px;}
+  
+p {color: black;font-family: courier;font-size: 10px;}
+
+p1 {color: black;font-family: courier;font-size: 15px;}
+
+p2{color: black;font-family: courier;font-size: 10px;}
+
+p3{color: black;font-family: courier;font-size: 10px;}
+	
+p4{color:black; font-family: courier; font-size: 9px;}
+
+p5 {color: red;font-family: courier;font-size: 15px;}
+
+
+
+
+div.topbox {width:500px; color:cyan; border:10px solid red; margin:10px auto; text-align:center; padding:20px; box-sizing:border-box; border-radius:50%; white-space:nowrap; overflow:hidden;}
+
+#Iran {
+  background-color: skyblue;
+}
+
+div.texthover {font-family: cursive; font-size: 15px; color:black; font-weight: bold; background-color:gold;}
+div.texthover:hover{
+    background-color: bisque;
+}
+
+p:target {
+  background-color: gold;
+}
+
+
+p:target::before {
+  font: 75% sans-serif;
+  content: ">>>>";
+  color: limegreen;
+  margin-right: 0.20em;
+}
+
+p:target i {
+  color: blue;
+}
+
+div.box{ float: left;
+  margin-right: 10px;
+  width: 150px;
+  height: 90px;
+  border-radius: 5px;
+  background-color: rgb(207, 232, 220);
+  padding: 1em;}
+
+div.gridtest{  display: grid; grid-template-columns: 50px 50px 50px;
+}}
+
+.visible {
+  visibility: visible;
+}
+
+.not-visible {
+  visibility: hidden;
+}
+
+.collapse {
+  visibility: collapse;
+}
+
+table {
+  border: 1px solid red;
+}
+
+td {
+  border: 1px solid gray;
+}
+
+.layer {
+  position: relative;
+}
+
+.firstbox {
+  position: relative;
+  z-index: 1;
+  border: dashed;
+  height: 8em;
+  margin-bottom: 1em;
+  margin-top: 2em;
+}
+.secondbox {
+  position: absolute;
+  z-index: 3; 
+  background: teal;
+  width: 80%;
+  left: 60px;
+  top: 3em;
+}
+.thirdbox {
+  position: absolute;
+  z-index: 2; 
+  background: pink;
+  width: 20%;
+  left: 65%;
+  top: -25px;
+  height: 7em;
+  opacity: 0.9;
+}
+
+
